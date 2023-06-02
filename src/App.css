@@ -1,0 +1,129 @@
+.card-deck {
+  padding: 10px 0px 0px 0px;
+  border-style: solid;
+  border-width: 2px;
+  border-color:rgba(194, 197, 194, 0.795);
+}
+
+.flex-container{
+  display: flex;
+  align-items: center;
+}
+
+
+.name{
+  padding: 5px 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.title{
+  padding: 10px 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+}
+
+.location{
+  padding: 10px 0px;
+  margin-left: 5px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+  color:rgb(126, 126, 115)
+
+}
+
+.split-horizontal-line{
+  border-top: 1px solid rgba(194, 197, 194, 0.795);
+}
+
+.split-vertical-line{
+  border-right: 2px solid rgba(194, 197, 194, 0.795);
+  height: 20px;
+  width: 1px;
+  margin-left: 10px;
+}
+
+.experience-container{
+  display: flex;
+  margin-top: 30px;
+}
+
+.education-container{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.rectangle{
+  width: 3px;
+  height: 20px;
+  background-color:rgba(194, 197, 194, 0.795);
+  margin-left: 3px;
+  margin-top: 3px;
+}
+
+.education-item{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.experience-item{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.education-line .experience-line{
+  display: block;
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 50%;
+  transform: translate(4px, 18px);
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: rgba(194, 197, 194, 0.795);
+}
+
+.experience-line{
+  display: block;
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 50%;
+  transform: translate(4px, 18px);
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: rgba(194, 197, 194, 0.795);
+
+}
+
+.w-40px{
+  width: 40px;
+}
+
+.radius{
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color:rgba(194, 197, 194, 0.795);
+  margin-right: 10px;
+  z-index: 1;
+}
+
+.middle-dot{
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  background-color:rgba(194, 197, 194, 0.795);
+  margin-left: 7px;
+  margin-right: 7px;
+  z-index: 1;
+}
